@@ -1,5 +1,8 @@
 :new: *Please check out our more recent [DINOv2](https://github.com/facebookresearch/dinov2) effort in the same line of work.*
 
+# Changes in this fork
+The only change in this fork is that the method ```forward``` in class ```Block``` has an additional boolean argument ```return_no_mlp``` which removes the MLP when set to ```True```.
+
 # Self-Supervised Vision Transformers with DINO
 
 PyTorch implementation and pretrained models for DINO. For details, see **Emerging Properties in Self-Supervised Vision Transformers**.  
